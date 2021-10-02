@@ -7,7 +7,7 @@ import { Navbar } from './src/Navbar';
 export default function App() {
   return (
     <View>
-      <Navbar title="React Native check" />
+      <Navbar title="React Native" />
       <View style={styles.container}>
         <AddTodo />
       </View>
