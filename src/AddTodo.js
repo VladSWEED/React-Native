@@ -3,7 +3,7 @@ import { Button, StyleSheet, TextInput, View } from 'react-native';
 
 export const AddTodo = ({ onSubmit }) => {
   const onPress = (title) => {
-    onSubmit('QWERTY');
+    onSubmit('mobile');
   };
   return (
     <View style={styles.block}>
